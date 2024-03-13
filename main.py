@@ -54,5 +54,6 @@ if response.status_code == 200:
         df.to_excel(writer, index=False, sheet_name='News')
 
     print(f"News articles successfully saved to {filename}")
+    print(I love you)
 else:
     print(f"Failed to fetch news articles. Status code: {response.status_code}")
